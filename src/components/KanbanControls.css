@@ -1,0 +1,104 @@
+.kanban-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .display-button {
+    width: 150px;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .display-button:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .controls-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+    margin-left: 20px;
+    margin-top: -33px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: 270px;
+  }
+  
+  .kanban-controls label {
+    font-weight: bold;
+  }
+  
+  .kanban-controls select {
+    width: 200px;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .dropdown-icon {
+    display: inline-block; 
+    margin-left:2px; 
+    vertical-align: middle;
+    cursor: pointer; 
+  }
+  
+  .dropdown-icon svg {
+    width: 20px; 
+    height: 20px; 
+    fill: #535961;
+    transition: transform 0.2s ease; 
+  }
+
+  .display-icon {
+    display: inline-block;
+    margin-left: 5px; 
+    margin-right: 8px; 
+    vertical-align: middle;
+    cursor: pointer; 
+  }
+  
+  .display-top{
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 12px;
+    margin-bottom: 12px;
+    height: 40px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .only-display{
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    width: 110px;
+    padding: 3px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin-left: 15px;
+  }
+
+  #grouping-select{
+    margin-left: 50px;
+    width: 130px;
+  }
+
+  #sorting-select{
+    margin-left: 54px;
+    width: 130px;
+  }
+
+  
+
+  
+  

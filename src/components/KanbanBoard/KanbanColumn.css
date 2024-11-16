@@ -1,0 +1,116 @@
+.kanban-column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  .kanban-column-header {
+    border-bottom: none;
+    margin-bottom: 0; 
+    padding-bottom: 0; 
+  }
+  
+  
+  .column-title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .header-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .add-icon,
+  .more-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .add-icon:hover,
+  .more-icon:hover {
+    color: #007bff;
+  }
+   */
+   .kanban-column {
+    margin: 10px;
+    padding: 0 10px;
+    background-color: #ffffff; 
+  }
+  
+  .kanban-column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  .dot-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 4px; 
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .add-icon,
+  .more-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .add-icon:hover,
+  .more-icon:hover {
+    color: #007bff;
+  }
+  
+  .kanban-column-tickets {
+    margin-top: 10px;
+  }
+
+  .priority-icon{
+    margin-top: 3px;
+    margin-right: 5px;
+  }
+
+  .user-icon{
+    margin-top: -5px;
+  }
+
+  .status-icon{
+    margin-top:2px;
+  }
+
+  .ticket-count{
+    margin-left: 20px;
+    color: grey;
+  }
